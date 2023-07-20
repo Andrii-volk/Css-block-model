@@ -16,7 +16,6 @@ body {
   text-align: center;
  background-image: url("./../images/beachshowcase.jpg");
  background-position: right center;
- /* background-color: #867272; */
 }
 .header {
       font-size: 50px;
@@ -57,7 +56,11 @@ body {
   line-height: 1.6;
 }
 .inline {
-  width:33.1%;
+  width:calc(100% / 3);
   display: inline-block;
   text-align: left;
+}
+.fsize {
+  font-size: 0;
+  text-align: center;
 }
