@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+* p {
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -38,4 +41,23 @@ body {
   text-transform: capitalize;
   line-height: 28.8px;
   font-size: 18px;
+}
+.bg-color-darc {
+  padding: 20px;
+  background-color: #936339;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.6;
+}
+.bg-color-light {
+   padding: 20px;
+  background-color: #ffffff;
+  font-size: 17px;
+  color: #936339;
+  line-height: 1.6;
+}
+.inline {
+  width:33.1%;
+  display: inline-block;
+  text-align: left;
 }
